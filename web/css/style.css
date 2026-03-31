@@ -1,0 +1,49 @@
+.zone-creator {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #ff4444; /* Red button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e63939; /* Darker red on hover */
+}
+
+.input-field {
+    background-color: #2a2a2a; /* Darker input fields */
+    color: #ffffff;
+    border: 1px solid #444; /* Subtle border */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header {
+    color: #ff4444; /* Red for the header */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
