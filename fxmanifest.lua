@@ -1,0 +1,1 @@
+fx_version 'cerulean'\ngame 'gta5'\n\nauthor '1stNaruTo'\ndescription 'RedZone PvP Zone Creator'\nversion '1.0.0'\n\n-- Define required scripts and dependencies\nclient_script 'client/main.lua'\nserver_script 'server/main.lua'\n\n-- Add additional dependencies if any\ndependencies {\n    'essentialmode',\n    'async'\n}
