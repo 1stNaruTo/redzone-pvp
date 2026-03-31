@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone Creator UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="zone-creator">
+        <h1>Create Your Zone</h1>
+        <form id="zone-form">
+            <label for="zone-name">Zone Name:</label>
+            <input type="text" id="zone-name" name="zone-name" required>
+
+            <label for="zone-color">Zone Color:</label>
+            <input type="color" id="zone-color" name="zone-color" required>
+
+            <label for="zone-size">Zone Size:</label>
+            <input type="number" id="zone-size" name="zone-size" min="1" required>
+
+            <button type="submit">Create Zone</button>
+        </form>
+        <div id="zone-preview"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
